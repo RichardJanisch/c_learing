@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  my_beckhoffadapter:
+    image: docker_beckhoffadapter
+    container_name: my_beckhoffadapter
+    volumes:
+      - /root/svn/vsCode/beckhoff_adapter/dev/10_bin:/shared_volume

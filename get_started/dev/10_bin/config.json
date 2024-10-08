@@ -1,0 +1,17 @@
+{
+    "SECTION_INI": {
+        "SECTION_RUNTIME": {
+            "ShutDown": false,
+            "ReceiveData": true
+        },
+        "SECTION_GENERAL": {
+            "AMSServerIP": "192.168.248.129",
+            "AMSServerPort": 48898,
+            "AMSNetIdTarget": "192.168.248.129.1.1",
+            "AMSPortTarget": 801,
+            "AMSNetIdSource": "192.168.248.130.1.1",
+            "AMSPortSource": 3000,
+            "NetComm": "TCP"
+        }
+    }
+}

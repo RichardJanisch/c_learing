@@ -1,0 +1,18 @@
+FROM debian:latest
+
+
+RUN apt-get update && \
+    apt-get install 
+
+RUN mkdir -p /App/
+
+COPY ./build_docker/main_BeckhoffAdapter /App
+COPY ./build_docker/config.json /App
+COPY ./build_docker/docker_run.sh /App
+
+RUN chmod 777 /App/docker_run.sh
+RUN chmod 777 /App/main_BeckhoffAdapter
+
+WORKDIR /App
+
+CMD ./docker_run.sh
