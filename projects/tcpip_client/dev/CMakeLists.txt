@@ -8,8 +8,8 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/../10_bin)
 
 # Quell- und Testdateien
-set(SOURCE_FILES 00_src/main.cpp)  # Hauptprogramm
-set(TEST_FILES 20_tests/maintest.cpp)  # Tests
+set(SOURCE_FILES 00_src/main.cpp)
+set(TEST_FILES 20_tests/maintest.cpp)
 
 # Google Test finden
 find_package(GTest REQUIRED)
@@ -21,7 +21,7 @@ add_executable(tcpip_client ${SOURCE_FILES})
 # Tests als separates Executable
 add_executable(maintest ${TEST_FILES})
 
-# Google Test und pthread mit den Tests verlinken (pthread ist für Linux notwendig)
+# Google Test mit den Tests verlinken
 target_link_libraries(maintest GTest::GTest GTest::Main pthread)
 
 # Debug-Symbole aktivieren
@@ -30,4 +30,4 @@ set(CMAKE_CXX_FLAGS_DEBUG "-g")
 
 # Testausführung beim `make test`
 enable_testing()
-add_test(AllTestsInMaintest maintest)
+add_test(NAME AllTestsInMaintest COMMAND maintest)

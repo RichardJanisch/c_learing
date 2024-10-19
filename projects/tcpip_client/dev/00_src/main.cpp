@@ -1,4 +1,25 @@
+//// includes ////
 #include <iostream>
+
+
+//// defines ////
+
+//// typedefs/stucts ////
+
+//// static vars ////
+
+//// global vars ////
+
+//// classes ////
+
+//// prototypes ////
+
+//// functions ////
+
+
+
+
+
 
 class Calculator {
 public:

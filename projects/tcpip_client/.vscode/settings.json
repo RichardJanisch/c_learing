@@ -5,7 +5,8 @@
         "stdlib.h": "c",
         "errno.h": "c",
         "vincimini_list.h": "c",
-        "type_traits": "c"
+        "type_traits": "c",
+        "iostream": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled",
     "workbench.colorCustomizations": {
@@ -14,7 +15,5 @@
         "titleBar.activeForeground": "#FEFCFC"
     },
     "cmake.sourceDirectory": "/home/testus/repos/c_learing/projects/tcpip_client/dev",
-    
-    // C++ TestMate Konfiguration für Google Test
-    "testMate.cpp.test.executables": "${workspaceFolder}/dev/10_bin/maintest"
+    "testMate.cpp.test.executables": "${workspaceFolder}/10_bin/maintest"
 }
