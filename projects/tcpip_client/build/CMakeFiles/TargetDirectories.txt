@@ -1,5 +1,0 @@
-/home/testus/repos/c_learing/projects/tcpip_client/build/CMakeFiles/tcpip_client.dir
-/home/testus/repos/c_learing/projects/tcpip_client/build/CMakeFiles/maintest.dir
-/home/testus/repos/c_learing/projects/tcpip_client/build/CMakeFiles/test.dir
-/home/testus/repos/c_learing/projects/tcpip_client/build/CMakeFiles/edit_cache.dir
-/home/testus/repos/c_learing/projects/tcpip_client/build/CMakeFiles/rebuild_cache.dir

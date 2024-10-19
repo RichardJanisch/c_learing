@@ -7,17 +7,16 @@
             "command": "cmake",
             "args": [
                 "-S",
-                "${workspaceFolder}/dev",
+                "${workspaceFolder}/dev",  // Quellverzeichnis mit CMakeLists.txt
                 "-B",
-                "${workspaceFolder}/dev/40_build",
-                "-DCMAKE_BUILD_TYPE=Debug"
+                "${workspaceFolder}/dev/40_build"  // Build-Verzeichnis explizit setzen
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
             "problemMatcher": ["$gcc"],
-            "detail": "Konfiguriert das Projekt mit CMake im Debug-Modus."
+            "detail": "Konfiguriert das Projekt mit CMake im Build-Ordner dev/40_build."
         },
         {
             "label": "Build with CMake",
@@ -25,7 +24,7 @@
             "command": "cmake",
             "args": [
                 "--build",
-                "${workspaceFolder}/dev/40_build"
+                "${workspaceFolder}/dev/40_build"  // Build-Verzeichnis verwenden
             ],
             "group": {
                 "kind": "build",
@@ -33,28 +32,7 @@
             },
             "dependsOn": "Configure CMake",
             "problemMatcher": ["$gcc"],
-            "detail": "Task to build the project using CMake."
-        },
-        {
-            "label": "Run Tests",
-            "type": "shell",
-            "command": "ctest",
-            "args": [
-                "--output-on-failure",
-                "-C",
-                "Debug",
-                "-T",
-                "test"
-            ],
-            "group": {
-                "kind": "test",
-                "isDefault": true
-            },
-            "options": {
-                "cwd": "${workspaceFolder}/dev/40_build"
-            },
-            "problemMatcher": ["$gcc"],
-            "detail": "Führt die Tests mit CTest aus."
+            "detail": "Baut das Projekt mit CMake."
         }
     ]
 }

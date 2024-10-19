@@ -140,17 +140,44 @@ tcpip_client/fast:
 .PHONY : tcpip_client/fast
 
 #=============================================================================
-# Target rules for targets named maintest
+# Target rules for targets named calculator_test
 
 # Build rule for target.
-maintest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 maintest
-.PHONY : maintest
+calculator_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 calculator_test
+.PHONY : calculator_test
 
 # fast build rule for target.
-maintest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/maintest.dir/build.make CMakeFiles/maintest.dir/build
-.PHONY : maintest/fast
+calculator_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator_test.dir/build.make CMakeFiles/calculator_test.dir/build
+.PHONY : calculator_test/fast
+
+00_src/calculator.o: 00_src/calculator.cpp.o
+.PHONY : 00_src/calculator.o
+
+# target to build an object file
+00_src/calculator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client.dir/build.make CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator_test.dir/build.make CMakeFiles/calculator_test.dir/00_src/calculator.cpp.o
+.PHONY : 00_src/calculator.cpp.o
+
+00_src/calculator.i: 00_src/calculator.cpp.i
+.PHONY : 00_src/calculator.i
+
+# target to preprocess a source file
+00_src/calculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client.dir/build.make CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator_test.dir/build.make CMakeFiles/calculator_test.dir/00_src/calculator.cpp.i
+.PHONY : 00_src/calculator.cpp.i
+
+00_src/calculator.s: 00_src/calculator.cpp.s
+.PHONY : 00_src/calculator.s
+
+# target to generate assembly for a file
+00_src/calculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client.dir/build.make CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator_test.dir/build.make CMakeFiles/calculator_test.dir/00_src/calculator.cpp.s
+.PHONY : 00_src/calculator.cpp.s
 
 00_src/main.o: 00_src/main.cpp.o
 .PHONY : 00_src/main.o
@@ -176,29 +203,29 @@ maintest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client.dir/build.make CMakeFiles/tcpip_client.dir/00_src/main.cpp.s
 .PHONY : 00_src/main.cpp.s
 
-20_tests/maintest.o: 20_tests/maintest.cpp.o
-.PHONY : 20_tests/maintest.o
+20_tests/calculator_test.o: 20_tests/calculator_test.cpp.o
+.PHONY : 20_tests/calculator_test.o
 
 # target to build an object file
-20_tests/maintest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/maintest.dir/build.make CMakeFiles/maintest.dir/20_tests/maintest.cpp.o
-.PHONY : 20_tests/maintest.cpp.o
+20_tests/calculator_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator_test.dir/build.make CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.o
+.PHONY : 20_tests/calculator_test.cpp.o
 
-20_tests/maintest.i: 20_tests/maintest.cpp.i
-.PHONY : 20_tests/maintest.i
+20_tests/calculator_test.i: 20_tests/calculator_test.cpp.i
+.PHONY : 20_tests/calculator_test.i
 
 # target to preprocess a source file
-20_tests/maintest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/maintest.dir/build.make CMakeFiles/maintest.dir/20_tests/maintest.cpp.i
-.PHONY : 20_tests/maintest.cpp.i
+20_tests/calculator_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator_test.dir/build.make CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.i
+.PHONY : 20_tests/calculator_test.cpp.i
 
-20_tests/maintest.s: 20_tests/maintest.cpp.s
-.PHONY : 20_tests/maintest.s
+20_tests/calculator_test.s: 20_tests/calculator_test.cpp.s
+.PHONY : 20_tests/calculator_test.s
 
 # target to generate assembly for a file
-20_tests/maintest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/maintest.dir/build.make CMakeFiles/maintest.dir/20_tests/maintest.cpp.s
-.PHONY : 20_tests/maintest.cpp.s
+20_tests/calculator_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator_test.dir/build.make CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.s
+.PHONY : 20_tests/calculator_test.cpp.s
 
 # Help Target
 help:
@@ -209,14 +236,17 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... maintest"
+	@echo "... calculator_test"
 	@echo "... tcpip_client"
+	@echo "... 00_src/calculator.o"
+	@echo "... 00_src/calculator.i"
+	@echo "... 00_src/calculator.s"
 	@echo "... 00_src/main.o"
 	@echo "... 00_src/main.i"
 	@echo "... 00_src/main.s"
-	@echo "... 20_tests/maintest.o"
-	@echo "... 20_tests/maintest.i"
-	@echo "... 20_tests/maintest.s"
+	@echo "... 20_tests/calculator_test.o"
+	@echo "... 20_tests/calculator_test.i"
+	@echo "... 20_tests/calculator_test.s"
 .PHONY : help
 
 

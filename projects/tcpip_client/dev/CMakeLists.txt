@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 # Ausgabeverzeichnis für Binaries
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/../10_bin)
-
+ 
 # Quell- und Testdateien
 set(SOURCE_FILES 00_src/main.cpp)
 set(TEST_FILES 20_tests/maintest.cpp)

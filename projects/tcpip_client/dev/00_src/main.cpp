@@ -1,6 +1,6 @@
 //// includes ////
 #include <iostream>
-
+#include "calculator.h"
 
 //// defines ////
 
@@ -17,19 +17,14 @@
 //// functions ////
 
 
-
-
-
-
-class Calculator {
-public:
-    int add(int a, int b) {
-        return a + b;
-    }
-};
-
 int main() {
     Calculator calc;
-    std::cout << "5 + 3 = " << calc.add(5, 3) << std::endl;
+    int result = calc.add(5, 3);
+    std::cout << "5 + 3 = " << result << std::endl;
+
+    result = calc.subtract(5, 3);
+    std::cout << "5 - 3 = " << result << std::endl;
+
     return 0;
 }
+

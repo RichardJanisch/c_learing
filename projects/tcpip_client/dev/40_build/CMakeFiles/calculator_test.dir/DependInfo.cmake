@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/calculator.cpp" "CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.o" "gcc" "CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.o.d"
-  "/home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/main.cpp" "CMakeFiles/tcpip_client.dir/00_src/main.cpp.o" "gcc" "CMakeFiles/tcpip_client.dir/00_src/main.cpp.o.d"
+  "/home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/calculator.cpp" "CMakeFiles/calculator_test.dir/00_src/calculator.cpp.o" "gcc" "CMakeFiles/calculator_test.dir/00_src/calculator.cpp.o.d"
+  "/home/testus/repos/c_learing/projects/tcpip_client/dev/20_tests/calculator_test.cpp" "CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.o" "gcc" "CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

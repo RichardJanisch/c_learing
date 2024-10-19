@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/testus/repos/c_learing/projects/tcpip_client/dev/00_src
 
-CXX_FLAGS = -g -std=gnu++17
+CXX_FLAGS = -g -std=gnu++17 -DGTEST_HAS_PTHREAD=1
 
