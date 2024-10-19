@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/maintest.dir/20_tests/maintest.cpp.o -o /home/testus/repos/c_learing/projects/tcpip_client/dev/10_bin/maintest  -lpthread /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a 

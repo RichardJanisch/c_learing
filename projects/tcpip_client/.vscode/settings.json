@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "vincimini_common.h": "c",
+        "vincimini_json.h": "c",
+        "stdlib.h": "c",
+        "errno.h": "c",
+        "vincimini_list.h": "c",
+        "type_traits": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#58160F",
+        "titleBar.activeBackground": "#7B1F15",
+        "titleBar.activeForeground": "#FEFCFC"
+    },
+    "cmake.sourceDirectory": "/home/testus/repos/c_learing/projects/tcpip_client/dev",
+    
+    // C++ TestMate Konfiguration für Google Test
+    "testMate.cpp.test.executables": "${workspaceFolder}/dev/10_bin/maintest"
+}

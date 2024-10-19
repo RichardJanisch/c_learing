@@ -1,0 +1,2 @@
+/home/testus/repos/c_learing/template_cpp/dev/40_build/CMakeFiles/edit_cache.dir
+/home/testus/repos/c_learing/template_cpp/dev/40_build/CMakeFiles/rebuild_cache.dir

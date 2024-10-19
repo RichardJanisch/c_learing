@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/testus/repos/c_learing/projects/tcpip_client/build",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/tcpip_client.dir/00_src/main.cpp.o -c /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/main.cpp",
+  "file": "/home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/main.cpp",
+  "output": "CMakeFiles/tcpip_client.dir/00_src/main.cpp.o"
+},
+{
+  "directory": "/home/testus/repos/c_learing/projects/tcpip_client/build",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/maintest.dir/20_tests/maintest.cpp.o -c /home/testus/repos/c_learing/projects/tcpip_client/dev/20_tests/maintest.cpp",
+  "file": "/home/testus/repos/c_learing/projects/tcpip_client/dev/20_tests/maintest.cpp",
+  "output": "CMakeFiles/maintest.dir/20_tests/maintest.cpp.o"
+}
+]
