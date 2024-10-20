@@ -1,10 +1,23 @@
-#ifndef CALCULATOR_H
-#define CALCULATOR_H
+#ifndef TCP_SERVER_H
+#define TCP_SERVER_H
 
-class Calculator {
+//// incluedes //// 
+#include <boost/asio.hpp>
+#include "tcp_msg.h"
+
+
+//// classes ////
+class TcpServer {
 public:
-    int add(int a, int b);
-    int subtract(int a, int b);
+    TcpServer(boost::asio::io_context& io_context, short port);
+    ~TcpServer();
+
+private:
+    void start_accept();
+    void handle_client(boost::asio::ip::tcp::socket socket);
+
+    boost::asio::ip::tcp::acceptor acceptor_;
+    char data_[256];  // Puffer für eingehende Nachrichten (ausreichend groß für verschiedene Nachrichtentypen)
 };
 
-#endif // CALCULATOR_H
+#endif // TCP_SERVER_H

@@ -2,7 +2,16 @@
 
 
 //// TCP/IP Server Error Codes ////
-
+typedef enum ERROR_CODES_e
+{
+    ERROR_NONE = 0x00,
+    ERROR_INVALID_MSG_TYPE = 0x01,
+    ERROR_INVALID_OBJECT_ID = 0x02,
+    ERROR_INVALID_VALUE = 0x03,
+    ERROR_INVALID_IDENTIFIER = 0x04,
+    ERROR_INVALID_MSG_LENGTH = 0x05
+}
+ERROR_CODES_t;
 
 
 //// TCP/IP Server Msg Types //// 
@@ -11,49 +20,49 @@
 //******* MSG_ACK *******
 //-------------------------------
 #define MSG_ACK 0x01
-typedef struct msg_ack_s 
+typedef struct MSG_ACK_s 
 {
     uint8_t msgType;
     uint16_t identifier;
 }
-msg_ack_t;
+MSG_ACK_t;
 
 //-------------------------------
 //******* MSG_ERROR *******
 //-------------------------------
 #define MSG_ERROR 0x02
-typedef struct msg_error_s
+typedef struct MSG_ERROR_s
 {
     uint8_t msgType;
     uint16_t identifier;
     uint8_t errorCode;
 }
-msg_error_t;
+MSG_ERROR_t;
 
 //-------------------------------
 //******* MSG_GET_OBJECT *******
 //-------------------------------
 #define MSG_GET_OBJECT 0x04
-typedef struct msg_get_object_s
+typedef struct MSG_GET_OBJECT_s
 {
     uint8_t MsgType;
     uint16_t Identifier;
     uint8_t ObjectID;
 }
-msg_get_object_t;
+MSG_GET_OBJECT_t;
 
 
 //-------------------------------
 //******* MSG_SET_OBJECT *******
 //-------------------------------
 #define MSG_SET_OBJECT 0x05
-typedef struct msg_set_object_s
+typedef struct MSG_SET_OBJECT_s
 {
     uint8_t MsgType;
     uint16_t Identifier;
     uint8_t ObjectID;
     uint8_t Value;
 }
-msg_set_object_t;
+MSG_SET_OBJECT_t;
 
 

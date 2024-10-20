@@ -8,7 +8,10 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/../10_bin)
 
 # Quell- und Testdateien
-set(SOURCE_FILES 00_src/main.cpp 00_src/tcpip_server.cpp 00_src/tcpip_server.h)
+set(SOURCE_FILES 00_src/main.cpp 
+    00_src/tcpip_server.cpp
+    00_src/tcpip_server.h
+    00_src/tcp_msg.h)
 set(TEST_FILES 20_tests/tcpip_server_test.cpp)
 
 # Google Test finden
