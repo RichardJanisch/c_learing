@@ -61,5 +61,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/tcpip_client.dir/DependInfo.cmake"
-  "CMakeFiles/calculator_test.dir/DependInfo.cmake"
+  "CMakeFiles/tcpip_client_test.dir/DependInfo.cmake"
   )

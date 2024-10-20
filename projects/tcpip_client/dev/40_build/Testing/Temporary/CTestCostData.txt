@@ -1,3 +1,3 @@
 CalculatorTest 1 0.00472137
-AllTestsInMaintest 1 0.00620739
+AllTestsInMaintest 4 0.00725106
 ---

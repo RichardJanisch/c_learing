@@ -1,13 +1,13 @@
 #include <gtest/gtest.h>
-#include "../00_src/calculator.h"
+#include "../00_src/tcpip_client.h"
 
-TEST(CalculatorTest, AdditionTest) {
+TEST(TcpIpClientTest, AdditionTest) {
     Calculator calc;
     EXPECT_EQ(calc.add(2, 3), 5);
     EXPECT_EQ(calc.add(-1, -1), -2);
 }
 
-TEST(CalculatorTest, SubtractionTest) {
+TEST(TcpIpClientTest, SubtractionTest) {
     Calculator calc;
     EXPECT_EQ(calc.subtract(5, 3), 2);
     EXPECT_EQ(calc.subtract(3, 5), -2);

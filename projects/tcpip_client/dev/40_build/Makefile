@@ -140,44 +140,17 @@ tcpip_client/fast:
 .PHONY : tcpip_client/fast
 
 #=============================================================================
-# Target rules for targets named calculator_test
+# Target rules for targets named tcpip_client_test
 
 # Build rule for target.
-calculator_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 calculator_test
-.PHONY : calculator_test
+tcpip_client_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tcpip_client_test
+.PHONY : tcpip_client_test
 
 # fast build rule for target.
-calculator_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator_test.dir/build.make CMakeFiles/calculator_test.dir/build
-.PHONY : calculator_test/fast
-
-00_src/calculator.o: 00_src/calculator.cpp.o
-.PHONY : 00_src/calculator.o
-
-# target to build an object file
-00_src/calculator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client.dir/build.make CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator_test.dir/build.make CMakeFiles/calculator_test.dir/00_src/calculator.cpp.o
-.PHONY : 00_src/calculator.cpp.o
-
-00_src/calculator.i: 00_src/calculator.cpp.i
-.PHONY : 00_src/calculator.i
-
-# target to preprocess a source file
-00_src/calculator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client.dir/build.make CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator_test.dir/build.make CMakeFiles/calculator_test.dir/00_src/calculator.cpp.i
-.PHONY : 00_src/calculator.cpp.i
-
-00_src/calculator.s: 00_src/calculator.cpp.s
-.PHONY : 00_src/calculator.s
-
-# target to generate assembly for a file
-00_src/calculator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client.dir/build.make CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator_test.dir/build.make CMakeFiles/calculator_test.dir/00_src/calculator.cpp.s
-.PHONY : 00_src/calculator.cpp.s
+tcpip_client_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client_test.dir/build.make CMakeFiles/tcpip_client_test.dir/build
+.PHONY : tcpip_client_test/fast
 
 00_src/main.o: 00_src/main.cpp.o
 .PHONY : 00_src/main.o
@@ -203,29 +176,56 @@ calculator_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client.dir/build.make CMakeFiles/tcpip_client.dir/00_src/main.cpp.s
 .PHONY : 00_src/main.cpp.s
 
-20_tests/calculator_test.o: 20_tests/calculator_test.cpp.o
-.PHONY : 20_tests/calculator_test.o
+00_src/tcpip_client.o: 00_src/tcpip_client.cpp.o
+.PHONY : 00_src/tcpip_client.o
 
 # target to build an object file
-20_tests/calculator_test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator_test.dir/build.make CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.o
-.PHONY : 20_tests/calculator_test.cpp.o
+00_src/tcpip_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client.dir/build.make CMakeFiles/tcpip_client.dir/00_src/tcpip_client.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client_test.dir/build.make CMakeFiles/tcpip_client_test.dir/00_src/tcpip_client.cpp.o
+.PHONY : 00_src/tcpip_client.cpp.o
 
-20_tests/calculator_test.i: 20_tests/calculator_test.cpp.i
-.PHONY : 20_tests/calculator_test.i
+00_src/tcpip_client.i: 00_src/tcpip_client.cpp.i
+.PHONY : 00_src/tcpip_client.i
 
 # target to preprocess a source file
-20_tests/calculator_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator_test.dir/build.make CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.i
-.PHONY : 20_tests/calculator_test.cpp.i
+00_src/tcpip_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client.dir/build.make CMakeFiles/tcpip_client.dir/00_src/tcpip_client.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client_test.dir/build.make CMakeFiles/tcpip_client_test.dir/00_src/tcpip_client.cpp.i
+.PHONY : 00_src/tcpip_client.cpp.i
 
-20_tests/calculator_test.s: 20_tests/calculator_test.cpp.s
-.PHONY : 20_tests/calculator_test.s
+00_src/tcpip_client.s: 00_src/tcpip_client.cpp.s
+.PHONY : 00_src/tcpip_client.s
 
 # target to generate assembly for a file
-20_tests/calculator_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator_test.dir/build.make CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.s
-.PHONY : 20_tests/calculator_test.cpp.s
+00_src/tcpip_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client.dir/build.make CMakeFiles/tcpip_client.dir/00_src/tcpip_client.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client_test.dir/build.make CMakeFiles/tcpip_client_test.dir/00_src/tcpip_client.cpp.s
+.PHONY : 00_src/tcpip_client.cpp.s
+
+20_tests/tcpip_client_test.o: 20_tests/tcpip_client_test.cpp.o
+.PHONY : 20_tests/tcpip_client_test.o
+
+# target to build an object file
+20_tests/tcpip_client_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client_test.dir/build.make CMakeFiles/tcpip_client_test.dir/20_tests/tcpip_client_test.cpp.o
+.PHONY : 20_tests/tcpip_client_test.cpp.o
+
+20_tests/tcpip_client_test.i: 20_tests/tcpip_client_test.cpp.i
+.PHONY : 20_tests/tcpip_client_test.i
+
+# target to preprocess a source file
+20_tests/tcpip_client_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client_test.dir/build.make CMakeFiles/tcpip_client_test.dir/20_tests/tcpip_client_test.cpp.i
+.PHONY : 20_tests/tcpip_client_test.cpp.i
+
+20_tests/tcpip_client_test.s: 20_tests/tcpip_client_test.cpp.s
+.PHONY : 20_tests/tcpip_client_test.s
+
+# target to generate assembly for a file
+20_tests/tcpip_client_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client_test.dir/build.make CMakeFiles/tcpip_client_test.dir/20_tests/tcpip_client_test.cpp.s
+.PHONY : 20_tests/tcpip_client_test.cpp.s
 
 # Help Target
 help:
@@ -236,17 +236,17 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... calculator_test"
 	@echo "... tcpip_client"
-	@echo "... 00_src/calculator.o"
-	@echo "... 00_src/calculator.i"
-	@echo "... 00_src/calculator.s"
+	@echo "... tcpip_client_test"
 	@echo "... 00_src/main.o"
 	@echo "... 00_src/main.i"
 	@echo "... 00_src/main.s"
-	@echo "... 20_tests/calculator_test.o"
-	@echo "... 20_tests/calculator_test.i"
-	@echo "... 20_tests/calculator_test.s"
+	@echo "... 00_src/tcpip_client.o"
+	@echo "... 00_src/tcpip_client.i"
+	@echo "... 00_src/tcpip_client.s"
+	@echo "... 20_tests/tcpip_client_test.o"
+	@echo "... 20_tests/tcpip_client_test.i"
+	@echo "... 20_tests/tcpip_client_test.s"
 .PHONY : help
 
 

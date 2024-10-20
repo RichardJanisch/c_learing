@@ -1,5 +1,5 @@
 /home/testus/repos/c_learing/projects/tcpip_client/dev/40_build/CMakeFiles/tcpip_client.dir
-/home/testus/repos/c_learing/projects/tcpip_client/dev/40_build/CMakeFiles/calculator_test.dir
+/home/testus/repos/c_learing/projects/tcpip_client/dev/40_build/CMakeFiles/tcpip_client_test.dir
 /home/testus/repos/c_learing/projects/tcpip_client/dev/40_build/CMakeFiles/test.dir
 /home/testus/repos/c_learing/projects/tcpip_client/dev/40_build/CMakeFiles/edit_cache.dir
 /home/testus/repos/c_learing/projects/tcpip_client/dev/40_build/CMakeFiles/rebuild_cache.dir

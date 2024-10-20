@@ -150,4 +150,4 @@ CMakeFiles/tcpip_client.dir/00_src/main.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/calculator.h
+ /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/tcpip_client.h

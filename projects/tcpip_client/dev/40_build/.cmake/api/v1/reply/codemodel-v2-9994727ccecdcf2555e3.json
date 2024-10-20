@@ -40,16 +40,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "calculator_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-calculator_test-Debug-fa8e6c78632d370427cf.json",
-					"name" : "calculator_test",
+					"id" : "tcpip_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tcpip_client-Debug-108099ad58dcc9c5a783.json",
+					"name" : "tcpip_client",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "tcpip_client::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-tcpip_client-Debug-2c49e375661059b5c0f1.json",
-					"name" : "tcpip_client",
+					"id" : "tcpip_client_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tcpip_client_test-Debug-34083e4dd6b3db8c8392.json",
+					"name" : "tcpip_client_test",
 					"projectIndex" : 0
 				}
 			]

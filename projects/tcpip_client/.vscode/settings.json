@@ -11,5 +11,5 @@
     },
     "C_Cpp.errorSquiggles": "disabled",
     "cmake.sourceDirectory": "${workspaceFolder}/dev",
-    "testMate.cpp.test.executables": "${workspaceFolder}/dev/10_bin/calculator_test"
+    "testMate.cpp.test.executables": "${workspaceFolder}/dev/10_bin/tcpip_client_test"
 }
