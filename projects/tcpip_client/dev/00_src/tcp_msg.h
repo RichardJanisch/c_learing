@@ -1,3 +1,6 @@
+#ifndef TCP_MSG_H
+#define TCP_MSG_H
+
 #include <stdint.h>
 
 
@@ -65,4 +68,4 @@ typedef struct MSG_SET_OBJECT_s
 }
 MSG_SET_OBJECT_t;
 
-
+#endif // TCP_MSG_H

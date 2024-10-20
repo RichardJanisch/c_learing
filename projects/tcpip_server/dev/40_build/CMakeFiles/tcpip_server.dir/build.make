@@ -108,6 +108,9 @@ tcpip_server_EXTERNAL_OBJECTS =
 /home/testus/repos/c_learing/projects/tcpip_server/dev/10_bin/tcpip_server: CMakeFiles/tcpip_server.dir/00_src/main.cpp.o
 /home/testus/repos/c_learing/projects/tcpip_server/dev/10_bin/tcpip_server: CMakeFiles/tcpip_server.dir/00_src/tcpip_server.cpp.o
 /home/testus/repos/c_learing/projects/tcpip_server/dev/10_bin/tcpip_server: CMakeFiles/tcpip_server.dir/build.make
+/home/testus/repos/c_learing/projects/tcpip_server/dev/10_bin/tcpip_server: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.83.0
+/home/testus/repos/c_learing/projects/tcpip_server/dev/10_bin/tcpip_server: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.83.0
+/home/testus/repos/c_learing/projects/tcpip_server/dev/10_bin/tcpip_server: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.83.0
 /home/testus/repos/c_learing/projects/tcpip_server/dev/10_bin/tcpip_server: CMakeFiles/tcpip_server.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/testus/repos/c_learing/projects/tcpip_server/dev/40_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/testus/repos/c_learing/projects/tcpip_server/dev/10_bin/tcpip_server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tcpip_server.dir/link.txt --verbose=$(VERBOSE)

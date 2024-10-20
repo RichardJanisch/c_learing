@@ -18,14 +18,19 @@ set(TEST_FILES 20_tests/tcpip_server_test.cpp)
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
 
+# Boost finden und einbinden
+find_package(Boost 1.70 REQUIRED COMPONENTS system thread)
+include_directories(${Boost_INCLUDE_DIRS})
+
 # Executable für das Hauptprogramm
 add_executable(tcpip_server ${SOURCE_FILES})
 
 # Tests als separates Executable
 add_executable(tcpip_server_test ${TEST_FILES} 00_src/tcpip_server.cpp)
 
-# Google Test mit den Tests verlinken
-target_link_libraries(tcpip_server_test GTest::GTest GTest::Main pthread)
+# Boost-Bibliotheken verlinken
+target_link_libraries(tcpip_server ${Boost_LIBRARIES})
+target_link_libraries(tcpip_server_test ${Boost_LIBRARIES} GTest::GTest GTest::Main pthread)
 
 # Debug-Symbole aktivieren
 set(CMAKE_BUILD_TYPE Debug)

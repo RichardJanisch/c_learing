@@ -1,6 +1,7 @@
 //// includes ////
-#include <iostream>
 #include "tcpip_client.h"
+#include <boost/asio.hpp>
+#include <iostream>
 
 //// defines ////
 
@@ -17,13 +18,6 @@
 //// functions ////
 
 int main() {
-    Calculator calc;
-    int result = calc.add(5, 3);
-    std::cout << "5 + 3 = " << result << std::endl;
-
-    result = calc.subtract(5, 3);
-    std::cout << "5 - 3 = " << result << std::endl;
 
     return 0;
 }
-

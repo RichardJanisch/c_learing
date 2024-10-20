@@ -108,6 +108,9 @@ tcpip_client_test_EXTERNAL_OBJECTS =
 /home/testus/repos/c_learing/projects/tcpip_client/dev/10_bin/tcpip_client_test: CMakeFiles/tcpip_client_test.dir/20_tests/tcpip_client_test.cpp.o
 /home/testus/repos/c_learing/projects/tcpip_client/dev/10_bin/tcpip_client_test: CMakeFiles/tcpip_client_test.dir/00_src/tcpip_client.cpp.o
 /home/testus/repos/c_learing/projects/tcpip_client/dev/10_bin/tcpip_client_test: CMakeFiles/tcpip_client_test.dir/build.make
+/home/testus/repos/c_learing/projects/tcpip_client/dev/10_bin/tcpip_client_test: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.83.0
+/home/testus/repos/c_learing/projects/tcpip_client/dev/10_bin/tcpip_client_test: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.83.0
+/home/testus/repos/c_learing/projects/tcpip_client/dev/10_bin/tcpip_client_test: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.83.0
 /home/testus/repos/c_learing/projects/tcpip_client/dev/10_bin/tcpip_client_test: /usr/lib/x86_64-linux-gnu/libgtest_main.a
 /home/testus/repos/c_learing/projects/tcpip_client/dev/10_bin/tcpip_client_test: /usr/lib/x86_64-linux-gnu/libgtest.a
 /home/testus/repos/c_learing/projects/tcpip_client/dev/10_bin/tcpip_client_test: CMakeFiles/tcpip_client_test.dir/link.txt

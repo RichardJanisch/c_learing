@@ -2,6 +2,58 @@
 	"entries" : 
 	[
 		{
+			"name" : "Boost_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Boost."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0"
+		},
+		{
+			"name" : "Boost_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/include"
+		},
+		{
+			"name" : "Boost_SYSTEM_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "/usr/lib/x86_64-linux-gnu/libboost_system.so.1.83.0"
+		},
+		{
+			"name" : "Boost_THREAD_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.83.0"
+		},
+		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -55,7 +107,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/testus/repos/c_learing/projects/tcpip_client/dev/40_build"
+			"value" : "/home/testus/repos/c_learing/projects/tcpip_server/dev/40_build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -547,7 +599,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/testus/repos/c_learing/projects/tcpip_client/dev/40_build/CMakeFiles/pkgRedirects"
+			"value" : "/home/testus/repos/c_learing/projects/tcpip_server/dev/40_build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -619,7 +671,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/testus/repos/c_learing/projects/tcpip_client/dev"
+			"value" : "/home/testus/repos/c_learing/projects/tcpip_server/dev"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -863,7 +915,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "MyTcpClientProject"
+			"value" : "MyTcpServerProject"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1162,6 +1214,18 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Boost",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding Boost"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake][cfound components: system thread ][v1.83.0(1.70)]"
+		},
+		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_GTest",
 			"properties" : 
 			[
@@ -1186,7 +1250,7 @@
 			"value" : "/usr/lib/x86_64-linux-gnu/cmake/GTest"
 		},
 		{
-			"name" : "MyTcpClientProject_BINARY_DIR",
+			"name" : "MyTcpServerProject_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1195,10 +1259,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/testus/repos/c_learing/projects/tcpip_client/dev/40_build"
+			"value" : "/home/testus/repos/c_learing/projects/tcpip_server/dev/40_build"
 		},
 		{
-			"name" : "MyTcpClientProject_IS_TOP_LEVEL",
+			"name" : "MyTcpServerProject_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1210,7 +1274,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "MyTcpClientProject_SOURCE_DIR",
+			"name" : "MyTcpServerProject_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1219,7 +1283,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/testus/repos/c_learing/projects/tcpip_client/dev"
+			"value" : "/home/testus/repos/c_learing/projects/tcpip_server/dev"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
@@ -1232,6 +1296,70 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "TRUE"
+		},
+		{
+			"name" : "boost_atomic_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for boost_atomic."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.83.0"
+		},
+		{
+			"name" : "boost_headers_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for boost_headers."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.83.0"
+		},
+		{
+			"name" : "boost_system_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for boost_system."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/boost_system-1.83.0"
+		},
+		{
+			"name" : "boost_thread_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for boost_thread."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.83.0"
 		}
 	],
 	"kind" : "cache",
