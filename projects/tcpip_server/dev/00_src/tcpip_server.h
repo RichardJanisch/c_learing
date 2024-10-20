@@ -1,14 +1,21 @@
 #ifndef TCP_SERVER_H
 #define TCP_SERVER_H
 
-//// incluedes //// 
+//// includes //// 
 #include <boost/asio.hpp>
 #include "tcp_msg.h"
 
+//// defines ////
+
+//// typedefs/stucts ////
+
+//// static vars ////
+
+//// global vars ////
 
 //// classes ////
-
-class TcpServer {
+class TcpServer 
+{
 public:
     TcpServer(boost::asio::io_context& io_context, short port);
     ~TcpServer();
@@ -20,5 +27,9 @@ private:
     boost::asio::ip::tcp::acceptor acceptor_;
     char data_[256];  // Puffer für eingehende Nachrichten (ausreichend groß für verschiedene Nachrichtentypen)
 };
+
+//// prototypes ////
+
+//// functions ////
 
 #endif // TCP_SERVER_H

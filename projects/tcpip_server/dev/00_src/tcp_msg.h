@@ -1,5 +1,6 @@
 #include <stdint.h>
-
+#ifndef TCP_MSG_H
+#define TCP_MSG_H
 
 //// TCP/IP Server Error Codes ////
 typedef enum ERROR_CODES_e
@@ -65,4 +66,5 @@ typedef struct MSG_SET_OBJECT_s
 }
 MSG_SET_OBJECT_t;
 
-
+//-------------------------------
+#endif // TCP_MSG_H

@@ -2,7 +2,9 @@
     "files.associations": {
         "*.tcc": "cpp",
         "*.h": "cpp",
-        "*.cpp": "cpp"
+        "*.cpp": "cpp",
+        "iostream": "cpp",
+        "*.ipp": "cpp"
     },
     "workbench.colorCustomizations": {
         "activityBar.background": "#2B300B",

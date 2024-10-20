@@ -16,14 +16,8 @@
 
 //// functions ////
 
-int main() {
-    Calculator calc;
-    int result = calc.add(5, 3);
-    std::cout << "5 + 3 = " << result << std::endl;
-
-    result = calc.subtract(5, 3);
-    std::cout << "5 - 3 = " << result << std::endl;
-
+int main()
+{
     return 0;
 }
 
