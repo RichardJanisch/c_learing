@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Configure CMake",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "-S",
+                "${workspaceFolder}/dev",  // Quellverzeichnis mit CMakeLists.txt
+                "-B",
+                "${workspaceFolder}/dev/40_build"  // Build-Verzeichnis explizit setzen
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Konfiguriert das Projekt mit CMake im Build-Ordner dev/40_build."
+        },
+        {
+            "label": "Build with CMake",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "${workspaceFolder}/dev/40_build"  // Build-Verzeichnis verwenden
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn": "Configure CMake",
+            "problemMatcher": ["$gcc"],
+            "detail": "Baut das Projekt mit CMake."
+        }
+    ]
+}

@@ -24,11 +24,39 @@
 	ProcessorClockFrequency="1996.8"
 	>
 	<Testing>
-		<StartDateTime>Oct 20 09:48 UTC</StartDateTime>
-		<StartTestTime>1729417730</StartTestTime>
-		<TestList/>
-		<EndDateTime>Oct 20 09:48 UTC</EndDateTime>
-		<EndTestTime>1729417730</EndTestTime>
+		<StartDateTime>Oct 20 10:00 UTC</StartDateTime>
+		<StartTestTime>1729418438</StartTestTime>
+		<TestList>
+			<Test>./AllTestsInMaintest</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>AllTestsInMaintest</Name>
+			<Path>.</Path>
+			<FullName>./AllTestsInMaintest</FullName>
+			<FullCommandLine>/home/testus/repos/c_learing/projects/tcpip_client/dev/10_bin/tcpip_client_test</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00554392</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/testus/repos/c_learing/projects/tcpip_client/dev/10_bin/tcpip_client_test</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkcEOgjAMhu97ih7lAFHvHogaY0zUAJ4IhyHTLBkdGZ2+vhMIERKV/9b269+0TVe9MogsosQ7LIFETTXcjC5h0QRQW0kiYKnfK4Od0jlXbV3gQxqNpUDHCvJtNYIHpsm12ldrJR2duCxLIbocoVE2LgZhUUiSGjuy1enwh4TZHMra+20d25wMv05zH8H9gKlbtg1Amrjy2LRTkuDGL/QTWfr5qa8fAsMxGA5yO53DON5u3gfoGgP2Ar+fnhE=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Oct 20 10:00 UTC</EndDateTime>
+		<EndTestTime>1729418438</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
