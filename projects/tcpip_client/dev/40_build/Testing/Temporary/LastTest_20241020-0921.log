@@ -1,0 +1,30 @@
+Start testing: Oct 20 09:27 UTC
+----------------------------------------------------------
+1/1 Testing: AllTestsInMaintest
+1/1 Test: AllTestsInMaintest
+Command: "/home/testus/repos/c_learing/projects/tcpip_client/dev/10_bin/calculator_test"
+Directory: /home/testus/repos/c_learing/projects/tcpip_client/dev/40_build
+"AllTestsInMaintest" start time: Oct 20 09:27 UTC
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from CalculatorTest
+[ RUN      ] CalculatorTest.AdditionTest
+[       OK ] CalculatorTest.AdditionTest (0 ms)
+[ RUN      ] CalculatorTest.SubtractionTest
+[       OK ] CalculatorTest.SubtractionTest (0 ms)
+[----------] 2 tests from CalculatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AllTestsInMaintest" end time: Oct 20 09:27 UTC
+"AllTestsInMaintest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 20 09:27 UTC

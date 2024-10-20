@@ -73,29 +73,29 @@ CMakeFiles/tcpip_client.dir/00_src/main.cpp.o: CMakeFiles/tcpip_client.dir/flags
 CMakeFiles/tcpip_client.dir/00_src/main.cpp.o: /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/main.cpp
 CMakeFiles/tcpip_client.dir/00_src/main.cpp.o: CMakeFiles/tcpip_client.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/testus/repos/c_learing/projects/tcpip_client/dev/40_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tcpip_client.dir/00_src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tcpip_client.dir/00_src/main.cpp.o -MF CMakeFiles/tcpip_client.dir/00_src/main.cpp.o.d -o CMakeFiles/tcpip_client.dir/00_src/main.cpp.o -c /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/main.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tcpip_client.dir/00_src/main.cpp.o -MF CMakeFiles/tcpip_client.dir/00_src/main.cpp.o.d -o CMakeFiles/tcpip_client.dir/00_src/main.cpp.o -c /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/main.cpp
 
 CMakeFiles/tcpip_client.dir/00_src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tcpip_client.dir/00_src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/main.cpp > CMakeFiles/tcpip_client.dir/00_src/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/main.cpp > CMakeFiles/tcpip_client.dir/00_src/main.cpp.i
 
 CMakeFiles/tcpip_client.dir/00_src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tcpip_client.dir/00_src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/main.cpp -o CMakeFiles/tcpip_client.dir/00_src/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/main.cpp -o CMakeFiles/tcpip_client.dir/00_src/main.cpp.s
 
 CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.o: CMakeFiles/tcpip_client.dir/flags.make
 CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.o: /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/calculator.cpp
 CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.o: CMakeFiles/tcpip_client.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/testus/repos/c_learing/projects/tcpip_client/dev/40_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.o -MF CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.o.d -o CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.o -c /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/calculator.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.o -MF CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.o.d -o CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.o -c /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/calculator.cpp
 
 CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/calculator.cpp > CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/calculator.cpp > CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.i
 
 CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/calculator.cpp -o CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/calculator.cpp -o CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.s
 
 # Object files for target tcpip_client
 tcpip_client_OBJECTS = \

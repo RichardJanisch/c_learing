@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20241020-0921-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.28.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="ubuntu2404server"
+	OSRelease="6.8.0-45-generic"
+	OSVersion="#45-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 30 12:02:04 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="15"
+	ModelID="107"
+	ProcessorCacheSize="16384"
+	NumberOfLogicalCPU="1"
+	NumberOfPhysicalCPU="1"
+	TotalVirtualMemory="3915"
+	TotalPhysicalMemory="3916"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="1996.8"
+	>
+	<Testing>
+		<StartDateTime>Oct 20 09:27 UTC</StartDateTime>
+		<StartTestTime>1729416448</StartTestTime>
+		<TestList>
+			<Test>./AllTestsInMaintest</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>AllTestsInMaintest</Name>
+			<Path>.</Path>
+			<FullName>./AllTestsInMaintest</FullName>
+			<FullCommandLine>/home/testus/repos/c_learing/projects/tcpip_client/dev/10_bin/calculator_test</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00620739</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/testus/repos/c_learing/projects/tcpip_client/dev/10_bin/calculator_test</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkTEPgjAQhff+ihtloFF3B6LGwUQN6NQwFKimSbmactW/LwIhQiLhbdf7+i7vTmx6pRB7RI0PWAOpiiq4O1vCqimg8poUZyLslcLB2Eyatq/wpZ3FUmHNKgr9cwQPTLfS5N5Isu5aPzIB8e0EjdJRj0dFoUlb7MBW5+M0CIsllFUwaZz4jJzMZ3mP2N5+ZsCWB7IkTcDmLZGUdGFh38jE743+3gacRD4cVCe6REmy333Tdx85+wC/HpzT====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Oct 20 09:27 UTC</EndDateTime>
+		<EndTestTime>1729416448</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

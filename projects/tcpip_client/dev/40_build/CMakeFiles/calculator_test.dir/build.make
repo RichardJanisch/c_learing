@@ -73,29 +73,29 @@ CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.o: CMakeFiles/calcul
 CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.o: /home/testus/repos/c_learing/projects/tcpip_client/dev/20_tests/calculator_test.cpp
 CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.o: CMakeFiles/calculator_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/testus/repos/c_learing/projects/tcpip_client/dev/40_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.o -MF CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.o.d -o CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.o -c /home/testus/repos/c_learing/projects/tcpip_client/dev/20_tests/calculator_test.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.o -MF CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.o.d -o CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.o -c /home/testus/repos/c_learing/projects/tcpip_client/dev/20_tests/calculator_test.cpp
 
 CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/testus/repos/c_learing/projects/tcpip_client/dev/20_tests/calculator_test.cpp > CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/testus/repos/c_learing/projects/tcpip_client/dev/20_tests/calculator_test.cpp > CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.i
 
 CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/testus/repos/c_learing/projects/tcpip_client/dev/20_tests/calculator_test.cpp -o CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/testus/repos/c_learing/projects/tcpip_client/dev/20_tests/calculator_test.cpp -o CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.s
 
 CMakeFiles/calculator_test.dir/00_src/calculator.cpp.o: CMakeFiles/calculator_test.dir/flags.make
 CMakeFiles/calculator_test.dir/00_src/calculator.cpp.o: /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/calculator.cpp
 CMakeFiles/calculator_test.dir/00_src/calculator.cpp.o: CMakeFiles/calculator_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/testus/repos/c_learing/projects/tcpip_client/dev/40_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calculator_test.dir/00_src/calculator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator_test.dir/00_src/calculator.cpp.o -MF CMakeFiles/calculator_test.dir/00_src/calculator.cpp.o.d -o CMakeFiles/calculator_test.dir/00_src/calculator.cpp.o -c /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/calculator.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator_test.dir/00_src/calculator.cpp.o -MF CMakeFiles/calculator_test.dir/00_src/calculator.cpp.o.d -o CMakeFiles/calculator_test.dir/00_src/calculator.cpp.o -c /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/calculator.cpp
 
 CMakeFiles/calculator_test.dir/00_src/calculator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator_test.dir/00_src/calculator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/calculator.cpp > CMakeFiles/calculator_test.dir/00_src/calculator.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/calculator.cpp > CMakeFiles/calculator_test.dir/00_src/calculator.cpp.i
 
 CMakeFiles/calculator_test.dir/00_src/calculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator_test.dir/00_src/calculator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/calculator.cpp -o CMakeFiles/calculator_test.dir/00_src/calculator.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/calculator.cpp -o CMakeFiles/calculator_test.dir/00_src/calculator.cpp.s
 
 # Object files for target calculator_test
 calculator_test_OBJECTS = \

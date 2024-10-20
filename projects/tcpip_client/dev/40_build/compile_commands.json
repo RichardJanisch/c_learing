@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/testus/repos/c_learing/projects/tcpip_client/dev/40_build",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/tcpip_client.dir/00_src/main.cpp.o -c /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/main.cpp",
+  "file": "/home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/main.cpp",
+  "output": "CMakeFiles/tcpip_client.dir/00_src/main.cpp.o"
+},
+{
+  "directory": "/home/testus/repos/c_learing/projects/tcpip_client/dev/40_build",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.o -c /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/calculator.cpp",
+  "file": "/home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/calculator.cpp",
+  "output": "CMakeFiles/tcpip_client.dir/00_src/calculator.cpp.o"
+},
+{
+  "directory": "/home/testus/repos/c_learing/projects/tcpip_client/dev/40_build",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.o -c /home/testus/repos/c_learing/projects/tcpip_client/dev/20_tests/calculator_test.cpp",
+  "file": "/home/testus/repos/c_learing/projects/tcpip_client/dev/20_tests/calculator_test.cpp",
+  "output": "CMakeFiles/calculator_test.dir/20_tests/calculator_test.cpp.o"
+},
+{
+  "directory": "/home/testus/repos/c_learing/projects/tcpip_client/dev/40_build",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/calculator_test.dir/00_src/calculator.cpp.o -c /home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/calculator.cpp",
+  "file": "/home/testus/repos/c_learing/projects/tcpip_client/dev/00_src/calculator.cpp",
+  "output": "CMakeFiles/calculator_test.dir/00_src/calculator.cpp.o"
+}
+]

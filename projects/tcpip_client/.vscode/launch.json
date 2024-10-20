@@ -31,7 +31,7 @@
       "name": "Debug Tests",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/dev/10_bin/maintest",
+      "program": "${workspaceFolder}/dev/10_bin/calculator_test",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
