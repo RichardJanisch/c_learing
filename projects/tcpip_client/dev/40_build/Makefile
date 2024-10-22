@@ -152,6 +152,54 @@ tcpip_client_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client_test.dir/build.make CMakeFiles/tcpip_client_test.dir/build
 .PHONY : tcpip_client_test/fast
 
+00_src/TcpClient.o: 00_src/TcpClient.cpp.o
+.PHONY : 00_src/TcpClient.o
+
+# target to build an object file
+00_src/TcpClient.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client.dir/build.make CMakeFiles/tcpip_client.dir/00_src/TcpClient.cpp.o
+.PHONY : 00_src/TcpClient.cpp.o
+
+00_src/TcpClient.i: 00_src/TcpClient.cpp.i
+.PHONY : 00_src/TcpClient.i
+
+# target to preprocess a source file
+00_src/TcpClient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client.dir/build.make CMakeFiles/tcpip_client.dir/00_src/TcpClient.cpp.i
+.PHONY : 00_src/TcpClient.cpp.i
+
+00_src/TcpClient.s: 00_src/TcpClient.cpp.s
+.PHONY : 00_src/TcpClient.s
+
+# target to generate assembly for a file
+00_src/TcpClient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client.dir/build.make CMakeFiles/tcpip_client.dir/00_src/TcpClient.cpp.s
+.PHONY : 00_src/TcpClient.cpp.s
+
+00_src/TcpConnection.o: 00_src/TcpConnection.cpp.o
+.PHONY : 00_src/TcpConnection.o
+
+# target to build an object file
+00_src/TcpConnection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client.dir/build.make CMakeFiles/tcpip_client.dir/00_src/TcpConnection.cpp.o
+.PHONY : 00_src/TcpConnection.cpp.o
+
+00_src/TcpConnection.i: 00_src/TcpConnection.cpp.i
+.PHONY : 00_src/TcpConnection.i
+
+# target to preprocess a source file
+00_src/TcpConnection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client.dir/build.make CMakeFiles/tcpip_client.dir/00_src/TcpConnection.cpp.i
+.PHONY : 00_src/TcpConnection.cpp.i
+
+00_src/TcpConnection.s: 00_src/TcpConnection.cpp.s
+.PHONY : 00_src/TcpConnection.s
+
+# target to generate assembly for a file
+00_src/TcpConnection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client.dir/build.make CMakeFiles/tcpip_client.dir/00_src/TcpConnection.cpp.s
+.PHONY : 00_src/TcpConnection.cpp.s
+
 00_src/main.o: 00_src/main.cpp.o
 .PHONY : 00_src/main.o
 
@@ -175,33 +223,6 @@ tcpip_client_test/fast:
 00_src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client.dir/build.make CMakeFiles/tcpip_client.dir/00_src/main.cpp.s
 .PHONY : 00_src/main.cpp.s
-
-00_src/tcpip_client.o: 00_src/tcpip_client.cpp.o
-.PHONY : 00_src/tcpip_client.o
-
-# target to build an object file
-00_src/tcpip_client.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client.dir/build.make CMakeFiles/tcpip_client.dir/00_src/tcpip_client.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client_test.dir/build.make CMakeFiles/tcpip_client_test.dir/00_src/tcpip_client.cpp.o
-.PHONY : 00_src/tcpip_client.cpp.o
-
-00_src/tcpip_client.i: 00_src/tcpip_client.cpp.i
-.PHONY : 00_src/tcpip_client.i
-
-# target to preprocess a source file
-00_src/tcpip_client.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client.dir/build.make CMakeFiles/tcpip_client.dir/00_src/tcpip_client.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client_test.dir/build.make CMakeFiles/tcpip_client_test.dir/00_src/tcpip_client.cpp.i
-.PHONY : 00_src/tcpip_client.cpp.i
-
-00_src/tcpip_client.s: 00_src/tcpip_client.cpp.s
-.PHONY : 00_src/tcpip_client.s
-
-# target to generate assembly for a file
-00_src/tcpip_client.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client.dir/build.make CMakeFiles/tcpip_client.dir/00_src/tcpip_client.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcpip_client_test.dir/build.make CMakeFiles/tcpip_client_test.dir/00_src/tcpip_client.cpp.s
-.PHONY : 00_src/tcpip_client.cpp.s
 
 20_tests/tcpip_client_test.o: 20_tests/tcpip_client_test.cpp.o
 .PHONY : 20_tests/tcpip_client_test.o
@@ -238,12 +259,15 @@ help:
 	@echo "... test"
 	@echo "... tcpip_client"
 	@echo "... tcpip_client_test"
+	@echo "... 00_src/TcpClient.o"
+	@echo "... 00_src/TcpClient.i"
+	@echo "... 00_src/TcpClient.s"
+	@echo "... 00_src/TcpConnection.o"
+	@echo "... 00_src/TcpConnection.i"
+	@echo "... 00_src/TcpConnection.s"
 	@echo "... 00_src/main.o"
 	@echo "... 00_src/main.i"
 	@echo "... 00_src/main.s"
-	@echo "... 00_src/tcpip_client.o"
-	@echo "... 00_src/tcpip_client.i"
-	@echo "... 00_src/tcpip_client.s"
 	@echo "... 20_tests/tcpip_client_test.o"
 	@echo "... 20_tests/tcpip_client_test.i"
 	@echo "... 20_tests/tcpip_client_test.s"

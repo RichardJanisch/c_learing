@@ -8,7 +8,13 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/../10_bin)
 
 # Quell- und Testdateien
-set(SOURCE_FILES 00_src/main.cpp 00_src/tcpip_client.cpp 00_src/tcpip_client.h)
+set(SOURCE_FILES 
+    00_src/main.cpp 
+    00_src/TcpClient.cpp 
+    00_src/TcpConnection.cpp 
+    00_src/tcp_msg.h
+    00_src/VseCom.cpp
+    00_src/VseCom.hpp)
 set(TEST_FILES 20_tests/tcpip_client_test.cpp)
 
 # Google Test finden
@@ -18,12 +24,12 @@ include_directories(${GTEST_INCLUDE_DIRS})
 # Boost finden und einbinden
 find_package(Boost 1.70 REQUIRED COMPONENTS system thread)
 include_directories(${Boost_INCLUDE_DIRS})
-
+ 
 # Executable für das Hauptprogramm
 add_executable(tcpip_client ${SOURCE_FILES})
 
 # Tests als separates Executable
-add_executable(tcpip_client_test ${TEST_FILES} 00_src/tcpip_client.cpp)
+add_executable(tcpip_client_test ${TEST_FILES} )
 
 # Boost-Bibliotheken verlinken
 target_link_libraries(tcpip_client ${Boost_LIBRARIES})

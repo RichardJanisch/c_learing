@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "/home/testus/repos/c_learing/projects/tcpip_server/dev/10_bin/tcpip_server_test"
   "/home/testus/repos/c_learing/projects/tcpip_server/dev/10_bin/tcpip_server_test.pdb"
-  "CMakeFiles/tcpip_server_test.dir/00_src/tcpip_server.cpp.o"
-  "CMakeFiles/tcpip_server_test.dir/00_src/tcpip_server.cpp.o.d"
   "CMakeFiles/tcpip_server_test.dir/20_tests/tcpip_server_test.cpp.o"
   "CMakeFiles/tcpip_server_test.dir/20_tests/tcpip_server_test.cpp.o.d"
 )

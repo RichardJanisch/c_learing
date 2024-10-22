@@ -149,9 +149,7 @@ CMakeFiles/tcpip_server.dir/00_src/main.cpp.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc \
- /home/testus/repos/c_learing/projects/tcpip_server/dev/00_src/tcpip_server.h \
- /usr/include/boost/asio.hpp \
+ /usr/include/c++/13/bits/istream.tcc /usr/include/boost/asio.hpp \
  /usr/include/boost/asio/any_completion_executor.hpp \
  /usr/include/boost/asio/detail/config.hpp /usr/include/boost/config.hpp \
  /usr/include/boost/config/user.hpp \
@@ -1216,4 +1214,5 @@ CMakeFiles/tcpip_server.dir/00_src/main.cpp.o: \
  /usr/include/boost/asio/writable_pipe.hpp \
  /usr/include/boost/asio/write_at.hpp \
  /usr/include/boost/asio/impl/write_at.hpp \
- /home/testus/repos/c_learing/projects/tcpip_server/dev/00_src/tcp_msg.h
+ /home/testus/repos/c_learing/projects/tcpip_server/dev/00_src/TcpServer.hpp \
+ /home/testus/repos/c_learing/projects/tcpip_server/dev/00_src/TcpConnection.hpp

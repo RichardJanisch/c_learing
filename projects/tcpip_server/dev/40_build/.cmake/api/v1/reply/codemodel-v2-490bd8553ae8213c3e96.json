@@ -28,7 +28,7 @@
 					[
 						0
 					],
-					"name" : "MyTcpClientProject",
+					"name" : "MyTcpServerProject",
 					"targetIndexes" : 
 					[
 						0,
@@ -40,16 +40,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "tcpip_client::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-tcpip_client-Debug-4cd40f7635cd415c6cfc.json",
-					"name" : "tcpip_client",
+					"id" : "tcpip_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tcpip_server-Debug-028f6dee7f500cc384bc.json",
+					"name" : "tcpip_server",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "tcpip_client_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-tcpip_client_test-Debug-d5523777bdeed92dbc85.json",
-					"name" : "tcpip_client_test",
+					"id" : "tcpip_server_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tcpip_server_test-Debug-de9cb187f59170b04538.json",
+					"name" : "tcpip_server_test",
 					"projectIndex" : 0
 				}
 			]
@@ -58,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/testus/repos/c_learing/projects/tcpip_client/dev/40_build",
-		"source" : "/home/testus/repos/c_learing/projects/tcpip_client/dev"
+		"build" : "/home/testus/repos/c_learing/projects/tcpip_server/dev/40_build",
+		"source" : "/home/testus/repos/c_learing/projects/tcpip_server/dev"
 	},
 	"version" : 
 	{

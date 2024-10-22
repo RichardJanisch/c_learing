@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/testus/repos/c_learing/projects/tcpip_server/dev/00_src/tcpip_server.cpp" "CMakeFiles/tcpip_server_test.dir/00_src/tcpip_server.cpp.o" "gcc" "CMakeFiles/tcpip_server_test.dir/00_src/tcpip_server.cpp.o.d"
   "/home/testus/repos/c_learing/projects/tcpip_server/dev/20_tests/tcpip_server_test.cpp" "CMakeFiles/tcpip_server_test.dir/20_tests/tcpip_server_test.cpp.o" "gcc" "CMakeFiles/tcpip_server_test.dir/20_tests/tcpip_server_test.cpp.o.d"
   )
 
